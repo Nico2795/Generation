@@ -1,4 +1,0 @@
-PruebaJavaScriptC3.js
-
-
-asdfjklñkasdflñsdfklasdflña
