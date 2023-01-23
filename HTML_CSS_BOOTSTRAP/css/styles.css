@@ -1,0 +1,78 @@
+/* Esto es un comentario */
+*{
+    text-align: center;
+    background-color: lightblue;
+}
+/* Por etiqueta */
+h1{
+    color: gray;
+}
+h2{
+    color: orange;
+}
+
+/* Por clase */
+
+.subtitulo{
+    color: deeppink;
+}
+
+.parrafo{
+    color: brown;
+}
+.titulo{
+    color: blueviolet;
+}
+
+/* Por id es más específico que la clase.  */
+#parrafo2{
+    color: green;
+}
+
+#tablas{
+    color: blue;
+    border-color: red;
+
+}
+
+.center {
+        display: block;
+        margin-left: auto;
+        margin-right: 50;
+        width: 50%;
+        flex-direction: column;
+
+}
+.tablasmaster{
+    display: flex;
+    margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        flex-direction: column;
+}
+
+#loquehiceenlamañana{
+    color: aliceblue;
+    background-color: goldenrod;
+    border: 1px black solid;
+    width: 50rem;
+    margin: 50px;
+}
+
+#cuadradoex{
+    background-color: aqua;
+    height: 200px;
+    margin: auto;
+    padding: 100px;
+}
+#cuadradoint{
+    background-color: red;
+    height: 50px;
+    padding: 100px;
+    margin:auto;
+}
+.imagenes{
+    text-align: center;
+    align-items: center;
+    display: fle;
+}

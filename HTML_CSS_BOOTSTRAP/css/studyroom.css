@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  background-image: url("/img/1132084.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: blanchedalmond;
+}
+
+.bienvenido {
+  width: 701px;
+  height: 148px;
+
+  font-family: "Arapey";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 110px;
+  display: flex;
+  margin: auto;
+
+  color: #ffffff;
+}
+
+.principal {
+  position: relative;
+  width: 1313px;
+  height: 446px;
+
+  align-self: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 200px;
+
+  background: rgba(255, 255, 255, 0.06);
+  opacity: 0.9;
+  border: 3px solid #ffffff;
+  backdrop-filter: blur(50px);
+  /* Note: backdrop-filter has minimal browser support */
+  text-align: center;
+
+  border-radius: 25.7719px;
+  bottom: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+#titulo {
+  align-self: center;
+  margin: auto;
+  opacity: 100;
+}
+
+#logo {
+  width: 500px;
+  height: 300px;
+  align-self: center;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 100px;
+  margin-bottom: 79px;
+}
+
+.botonprincipal {
+  width: 300px;
+  height: 50px;
+  background: blue;
+  box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  /* identical to box height */
+
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.botonprincipal:hover {
+  opacity: 0.7;
+}

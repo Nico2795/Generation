@@ -1,0 +1,33 @@
+body{
+    background-image: url(/img/1132084.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#navbarToggleExternalContent{
+    width: 200px;
+    position: relative;
+    margin: 0;
+
+}
+.list-group{ width: 200px;
+
+}
+
+.containerTodo{
+    align-content: center;
+    justify-items: center;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+}
+
+.collapse.show
+{
+    position:absolute;
+    margin: 0;
+}
+
+.navbar{
+    margin:0;
+}

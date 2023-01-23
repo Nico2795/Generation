@@ -1,0 +1,10 @@
+.imagen {
+    width: 50px;
+    /* put value of image height as your need */
+    float: left;
+    margin-right: 7px;
+  }
+  
+.dropdown-menu{
+    margin: 0;
+}
